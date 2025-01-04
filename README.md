@@ -92,6 +92,7 @@ You can modify these constants in the code to match your setup:
 #define PANEL_CHAIN 1       // Number of panels chained
 #define BRIGHTNESS 90       // Display brightness (0-255)
 ```
+Check [ESP32-HUB75-MatrixPanel-DMA project page ](https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA) to see what's possible with the library.
 
 ## How It Works
 
@@ -119,21 +120,8 @@ You can modify these constants in the code to match your setup:
 - **Compilation Errors**: Ensure all libraries are installed
 - **Display Glitches**: Try adjusting brightness or power supply
 
-## Contributing
-
-Feel free to fork this project and submit pull requests for improvements such as:
-- Additional animation modes
-- Speed control
-- Multiple message support
-- Saved favorites
-- Additional display effects
-
-## License
-
-This project is released under the MIT License. See the LICENSE file for details.
-
 ## Credits
 
-- LED Matrix library by mrfaptastic
+- LED Matrix library by mrcodetastic
 - WebSockets library by Markus Sattler
 - ArduinoJson library by Benoit Blanchon
